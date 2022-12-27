@@ -1,5 +1,6 @@
 parameters: {}
-environment: {}
+environment:
+  LOG_DESTINATIONS: '[{"logtail":{"token":"<replace_with_token>"}}]'
 packages:
   - name: ninja
     environment: {}
